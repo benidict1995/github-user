@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--Search View-->
+    <style name="SearchView.Default" parent="Widget.AppCompat.SearchView">
+        <item name="android:textSize">41sp</item>
+        <item name="queryBackground">@null</item>
+        <item name="searchIcon">@null</item>
+        <item name="android:queryBackground" tools:targetApi="lollipop">@null</item>
+        <item name="android:searchIcon" tools:targetApi="lollipop">@null</item>
+        <item name="android:background">@drawable/edit_text_rounded_corner</item>
+    </style>
+</resources>

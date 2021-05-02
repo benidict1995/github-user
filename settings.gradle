@@ -1,0 +1,6 @@
+rootProject.name="ben_exam"
+
+include ":android:app", ":android:core"
+include ":data"
+include ":domain"
+include ':android:userList'
